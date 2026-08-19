@@ -1,7 +1,7 @@
-    import time
-    import streamlit as st
+import time
+import streamlit as st
 
-    st.title("⏱️ เกมเติมศัพท์จับเวลา")
+st.title("⏱️ เกมเติมศัพท์จับเวลา")
  
 # 1. กำหนดค่าเริ่มต้นใน session_state ถ้ายังไม่มี
 if "ans1_val" not in st.session_state:
@@ -101,5 +101,5 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางสาวดีใจ ยิ้มแย้ม เลขที่ 5 ม.4/5")
+st.write("นางสาวศิริรัมพา สุรินรังษี เลขที่ 44 ม.4/2")
 
