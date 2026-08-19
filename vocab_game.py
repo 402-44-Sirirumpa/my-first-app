@@ -111,9 +111,9 @@ st.session_state.ans4_val = ans4
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 ans3 = st.text_input(
-    "ข้อ 3: I like eating a `B a n _ n _  ` in the morning. ",
+    "ข้อ 3: I like eating a `B a n _ n _  ` in the morning. 🍌 ",
     value=st.session_state.ans3_val,
-)
+
 ans4 = st.text_input(
     "ข้อ 4: I drink `L _ m _ n ` juice when the weather is hot.🍋",
     value=st.session_state.ans4_val,
